@@ -1,10 +1,10 @@
-# 📷🔐 Image Encryption App
+# 📷🔐 MedCrypt
 
-Welcome to the **Image Encryption App**! This Streamlit app lets you encrypt and decrypt images using elliptic curve cryptography (ECC) and pixel shuffling. It's a fun and interactive way to explore cryptography and secure your images! 🚀
+Welcome to the **MedCrypt**! This Streamlit web app lets you encrypt and decrypt images using elliptic curve cryptography (ECC) and pixel shuffling. It's a fun and interactive way to explore cryptography and secure your images! 🚀
 
 ## 🎉 Features
 
-- **Upload Images**: Upload your favorite images in PNG, JPG, or JPEG format.
+- **Upload Images**: Upload your scans in PNG, JPG, or JPEG format.
 - **Encrypt Images**: Secure your images with ECC and pixel shuffling.
 - **Decrypt Images**: Restore your images to their original form.
 - **Interactive Display**: View the original, encrypted, and decrypted images side by side.
@@ -48,8 +48,8 @@ Here are the main packages you'll need:
 
 ## 🚀 Usage
 
-1. **Open the App**:
-   - Run the app using `streamlit run app.py`.
+1. **Open the Web App**:
+   - Run the web app using `streamlit run app.py`.
    - Open your browser and navigate to the URL provided by Streamlit (usually `http://localhost:8501`).
 
 2. **Encrypt an Image**:
@@ -67,7 +67,7 @@ Here are the main packages you'll need:
 
 Here's a quick example of what you'll see:
 
-![Example Screenshot](example_screenshot.png)
+![Example Screenshot](screenshot.png)
 
 ## 🤝 Contributing
 
