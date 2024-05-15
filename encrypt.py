@@ -117,12 +117,12 @@ def psnr(image1, image2):
 private_key = ec.generate_private_key(ec.SECP256R1(), default_backend())
 
 # Encrypt the image
-original_image = Image.open('image.png')
+original_image = Image.open('img10.png')
 image_shape = np.array(original_image).shape
-encrypted_image, indices, iv, public_key, encryption_time, encrypted_array, entropy_shuffle, entropy_shuffle_encrypt = encrypt_image('image.png', private_key)
+encrypted_image, indices, iv, public_key, encryption_time, encrypted_array, entropy_shuffle, entropy_shuffle_encrypt = encrypt_image('img10.png', private_key)
 
 # Load the original image to get its shape
-original_image = Image.open('image.png')
+original_image = Image.open('img10.png')
 image_shape = np.array(original_image).shape
 
 # Decrypt the image
