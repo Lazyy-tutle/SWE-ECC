@@ -67,7 +67,7 @@ Here are the main packages you'll need:
 
 Here's a quick example of what you'll see:
 
-![Example Screenshot](screenshot.png)
+![Example Screenshot](Example.png)
 
 ## 🤝 Contributing
 
